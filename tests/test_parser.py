@@ -24,3 +24,9 @@ def test_parse_invalid_status():
 
     with pytest.raises(ValueError):
         parse_log_line(line)
+
+def test_parse_invalid_ip():
+    line = "2026-10-25 14:30:01 | BANANE | LOGIN_FAILED"
+
+    with pytest.raises(ValueError):
+        parse_log_line(line)
