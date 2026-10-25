@@ -1,0 +1,69 @@
+Metadata-Version: 2.4
+Name: log-detective
+Version: 0.1.0
+Summary: A Python tool for analyzing synthetic authentication logs.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+
+# Log Detective 🔐
+
+A Python-based cybersecurity learning project focused on analyzing synthetic authentication logs and detecting suspicious login activity.
+
+## Project Status
+
+🚧 In development — initial repository setup.
+
+## Objective
+
+The goal of Log Detective is to build a command-line tool that can identify potentially suspicious authentication patterns in log files.
+
+This project is designed to explore Python programming, log analysis, time-based detection rules, and defensive cybersecurity concepts.
+
+## Planned Features
+
+- Parse synthetic authentication logs.
+- Identify failed login attempts.
+- Group authentication events by source IP address.
+- Detect repeated failures within a configurable time window.
+- Generate readable security alerts.
+- Export analysis reports.
+- Validate detection logic using automated tests.
+
+## Technologies
+
+- Python 3.13
+- Python standard library
+- pytest (planned for automated testing)
+- Git and GitHub
+
+## Planned Project Structure
+
+```text
+src/log_detective/   Python source code
+data/                Synthetic sample logs
+tests/               Automated tests
+reports/             Generated reports
+```
+
+## Getting Started
+
+Installation and usage instructions will be added once the first working version is available.
+
+## Security and Ethics
+
+This project uses synthetic authentication logs for educational purposes. It is intended for defensive security learning and does not perform attacks against real systems.
+
+## Roadmap
+
+- [ ] Set up the project structure
+- [ ] Implement log parsing
+- [ ] Implement suspicious login detection
+- [ ] Add CLI output and reporting
+- [ ] Write automated tests
+- [ ] Document installation and usage
+
+## Author
+
+Computer Science undergraduate student interested in cybersecurity and defensive security tools.

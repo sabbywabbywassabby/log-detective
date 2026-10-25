@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/log_detective/__init__.py
+src/log_detective/cli.py
+src/log_detective/detector.py
+src/log_detective/parser.py
+src/log_detective/reporter.py
+src/log_detective.egg-info/PKG-INFO
+src/log_detective.egg-info/SOURCES.txt
+src/log_detective.egg-info/dependency_links.txt
+src/log_detective.egg-info/requires.txt
+src/log_detective.egg-info/top_level.txt
+tests/test_detector.py
+tests/test_parser.py
